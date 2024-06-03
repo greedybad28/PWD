@@ -1,0 +1,21 @@
+{
+    "name": "Lawwww",
+    "short_name": "law",
+    "start_url": "index.html",  
+    "display": "standalone", 
+    "theme_color": " #C52943",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "assets/whatsapp.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/acrobat.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
