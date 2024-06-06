@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App-name</title>
-    <div class="first-section">
-    <h1>This is an app</h1>
-    <h3>But why do you build this apppp??</h3>
-    </div>
+    <title>lawhelp</title>   
 </head>
 <body>
+<div id="get-started-page" class="get-started-page">
+  <div class="get-started-button-container">
+      <button id="splash-button">GET STARTED</button>
+  </div>
     
+</div>
+<div id="login-page" class="login-page" style="display:none;">
+  <h2>Login page</h2>
+    <form>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <button type="submit">Login</button>
+  </form>
 
 
+</div>
 <script>
 if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js');
   }
 </script>
+<script src="script.js"></script>
 </body>
+
 </html>
